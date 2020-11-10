@@ -1,13 +1,16 @@
 
 
 body{
-    background-color: #719eb3;
+
+    background-color: #02151f;
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
-    color:  #857474;
+    color:  #994a4a;
     font-size: 16px;
     line-height: 1.6em;
   }
+
+ 
   
   h1, h2, h3{
     font-family: 'Montserrat', sans-serif;
@@ -37,7 +40,7 @@ body{
   }
   
   a{
-    color: rgb(68, 37, 37);
+    color: rgb(2, 17, 65);
     text-decoration: none;
   }
   
@@ -46,19 +49,22 @@ body{
     text-decoration: none;
   }
   
+  .card{
+    background: rgb(25, 25, 192) bottom right/50px 50px;
+     animation: mymove 5s infinite;
+    }
 
-  
+
+    @keyframes mymove {
+      50% {background: rgb(114, 170, 24) bottom left/50px 50px;}
+     }
+
+    
   .container-fluid{
     width: 100%;
     margin: 30px auto;
   }
-  .card{
-    background: rgb(214, 197, 210);
-    padding: 20px;
-    margin-bottom: 30px;
-    border-radius: 8px;
-    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
-  }
+  
   .img-circle{
     border-radius: 20%;
   }
@@ -87,11 +93,12 @@ body{
     color: rgb(6, 58, 61);
   }
 
-
   #img-profile{
     width: 250px;
     height: 250px;
-    border: 10px solid #e7e6f0;
+    border: 10px solid #968b2c;
   }
+ 
+  
   
   
