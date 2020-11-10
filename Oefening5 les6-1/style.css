@@ -51,7 +51,7 @@ body{
   
   .card{
     background: rgb(1, 31, 28) bottom right/50px 50px;
-     animation: mymove 2.5s infinite;
+     animation: mymove 5s infinite;
     }
 
 
