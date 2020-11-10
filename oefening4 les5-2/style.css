@@ -57,6 +57,7 @@ body{
 
     @keyframes mymove {
       50% {background: rgb(114, 170, 24) bottom left/50px 50px;}
+
      }
 
     
@@ -70,6 +71,7 @@ body{
   }
   .text-center{
     text-align: center;
+  
   }
   .list-inline {
     padding-left: 0;
@@ -97,6 +99,8 @@ body{
     width: 250px;
     height: 250px;
     border: 10px solid #968b2c;
+    float: center;
+
   }
  
   
