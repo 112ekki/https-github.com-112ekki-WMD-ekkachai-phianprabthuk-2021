@@ -1,0 +1,166 @@
+.required label {
+    font-weight: bold;
+    font-family: Arial;
+}
+.required label:after {
+    color: #e32;
+    content: ' *';
+    display:inline;
+    font-family: Arial;
+}
+
+.required1 label {
+    font-weight: bold;
+    font-family: Arial;
+}
+
+fieldset {
+    margin: 30px;
+    font-weight: bold;
+    font-family: Arial;
+
+}
+
+
+select {
+
+    background-color:  hsl(205, 40%, 41%);
+  
+  }
+
+
+  body{
+    background-color: hsl(207, 95%, 15%);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    color:whitesmoke;
+    font-size: 16px;
+    line-height: 1.6em;
+    font-family: Arial;
+    transition-duration:0.35s;
+  }
+
+  
+  .required2 button{
+    font-weight: bold;
+    font-family: Arial;
+    background-color: hsl(205, 40%, 41%);
+    border: none;
+    color: white;
+    padding: 4px 10px;
+    border-radius: 4px;
+    text-decoration: none;
+    margin: 5px 30px;
+    border: 1px solid whitesmoke;
+    cursor: pointer;
+    font-family: Arial;
+  }
+
+  button:hover{
+    background-color: #DD5555;
+    text-decoration: none;
+  }
+
+
+  select:hover{
+    background-color: #DD5555;
+    text-decoration: none;
+  }
+
+  
+
+  input:hover{
+    background-color: #DD5555;
+    text-decoration: none;
+  }
+
+  textarea:hover{
+    background-color: #DD5555;
+    text-decoration: none;
+  }
+
+
+
+  input[type=file] {
+    background-color: hsl(205, 40%, 41%,);
+    border: none;
+    color: white;
+    padding: 4px 10px;
+    border-radius: 4px;
+    text-decoration: none;
+    margin: 5px 00px;
+    border: 1px solid whitesmoke;
+    cursor: pointer;
+    font-family: Arial;
+
+    
+  }
+
+ 
+textarea {
+
+  background-color:  hsl(205, 26%, 56%);
+  font-family: Arial;
+
+}
+
+
+
+select {
+
+background-color:  hsl(205, 40%, 41%);
+font-family: Arial;
+}
+
+
+fieldset {
+  background-color:hsl(205, 62%, 35%);
+  margin: 30px;
+  font-family: Arial;
+
+}
+
+legend {
+  background-color: hsl(205, 40%, 41%);;
+  color: rgb(204, 204, 226);
+  padding: 0px 7px;
+  margin: 20px 0;
+  border-radius: 4px;
+  border: 2px solid whitesmoke;
+  font-family: Arial;
+  
+}
+
+
+input {
+  background-color:hsl(205, 27%, 47%);
+  font-family: Arial;
+
+}
+
+
+label {
+  background-color: hsl(207, 95%, 15%);
+  color: rgb(204, 204, 226);
+  padding: 8px 60px;
+  margin: 5px;
+  font-family: Arial;
+}
+
+.required1 input :hover {
+
+  background-color: #DD5555;
+  text-decoration: none;
+
+}
+
+
+
+
+
+
+
+
+
+
+

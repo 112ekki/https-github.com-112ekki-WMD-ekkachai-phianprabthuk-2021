@@ -2,54 +2,91 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Oefening2-Form</title>
+    <title>Oefening5 les6-2 Aanpassing aan het formulier</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+  
+
   </head>
 
   <body>
-    <h1>Oefening2 - Forms</h1>
+    <h1>Oefening5 les6-2 Formulier</h1>
 
-<form action="/action_page.php">
+
+
+<form class="my-form">
+  <div class="container">
  <fieldset>
   <legend>Login</legend><br>
+
+  <div class="required">
   <label for="uname">Username:</label>
   <input type="text" id="uname" name="uname"><br><br>
   <label for="pword">Password:</label>
   <input type="text" id="pword" name="pword" placeholder="at least 8 characters"><br><br>
- </fieldset>
+</fieldset>
+ </div>
+</div>
 </form>
 
-    <form action="/action_page.php">
+  <form class="my-form">
+  <div class="container">
     <fieldset>
      <legend>NO account yet? Create one here:</legend><br>
 
-      <label for="fname">Full name *:</label>
+     <div class="required">
+     <label for="fname">Full name:</label>
      <input type="text" id="fName" name="fname"><br><br>
+     
+    </div>
 
-     <label for="gender">Gender:</label>
-     <input type="radio" id="radio1" name="radios">
-       <label for="radio1">Female</label>
-       <input type="radio" id="radio2" name="radios">
-       <label for="radio1">Male</label><br><br>
+
+    <div class="required1">
+
+
+      <label for="gender">Gender:</label>
+
+   
+      <input type="radio" name="radio">
+      <span class="check"></span>
+      <label class="container">Female</label>
+  
+
+      
+      <input type="radio" name="radio">
+      <span class="check"></span>
+      <label class="container">Male</label><br><br>
+
+
+
+
+       
+    
        
        
        <label for="favcolor">Your favorite color:</label>
        <input type="color" id="favcolor" name="favcolor" value="#008000"><br><br>
-      
+       
+    </div>
 
-       <label for="education">Your education *:</label>
+    <div class="required">
+       <label for="education">Your education:</label>
+
        <select id="education">
+
        <option value="select..." selected>Select...</option>
        <option value="primary school">Primary school</option>
        <option value="secondary school">Secondary school</option>
        <option value="higher education">Higher education</option>
        <option value="master">Master</option>
-       </select><br><br>
 
+       </select><br><br>
+    </div>
 
        
 
         <label for="skills">Skills:</label>
+
         <input type="checkbox" id="checkbox1" name="checkbox">
         <label for="checkbox1">HTML</label>
         <input type="checkbox" id="checkbox2" name="checkbox">
@@ -59,9 +96,13 @@
         <input type="checkbox" id="checkbox4" name="checkbox">
         <label for="checkbox4">PHP</label><br><br>
 
+        
+       
         <label for="skills">Upload a picture (.gif of .jpeg):</label>
         <input type="file" id="myFile" 
          name="filename"><br><br>
+
+         
 
          <label for="comments">Comments:</label>
          <textarea rows="5" cols="40" name="comment"></textarea><br><br>
@@ -72,8 +113,10 @@
     </fieldset>
    </form><br>
 
-   <button type="button" onclick="alert('Hello world!')">Send</button>
-   <button type="button" onclick="alert('Hello world!')">Cancel</button>
+   <div class="required2">
+   <button type="button" onclick="alert('Formulier verzonden!')">Send</button>
+   <button type="button" onclick="alert('Formulier geannuleerd!')">Cancel</button>
+   </div>
    
     
    
