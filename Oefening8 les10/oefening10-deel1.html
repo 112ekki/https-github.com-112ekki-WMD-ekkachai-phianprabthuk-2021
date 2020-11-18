@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	
+	<title>Oefening 10 Fetch</title>
+	
+	</head>
+	<body>
+	
+		<h1>Deel1:ophalen gegevens</h1>
+		<h2>Bekijk de output in de console</h2>
+		
+		
+		<script>
+				
+			
+			const 	api_url = ('https://matthiasdruwe.github.io/Web-MobileCursus/course/12.-JavaScript-04/examples/example12-01.json')
+			
+			async function haalDataOp() {
+				const response = await fetch(api_url);
+				const data = await response.json();
+				console.log(data);
+				
+             
+		
+			
+		 }
+	   haalDataOp();
+				
+		</script>
+			
+			
+		
+	
+			
+		</body>
+	
+	
+</html>
+	
+	
+	
