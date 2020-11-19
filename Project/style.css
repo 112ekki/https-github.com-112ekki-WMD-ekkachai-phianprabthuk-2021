@@ -1,0 +1,156 @@
+html {
+    box-sizing: border-box
+    
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit
+}
+
+html {
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%
+}
+
+body {
+    background: url("image/silk.jpg");
+	font-family: Verdana, sans-serif;
+	font-size: 15px;
+	line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Segoe UI", Arial, sans-serif;
+	font-weight: 400;
+    margin: 10px 
+    
+}
+
+ img{
+    
+	max-width: 700%;
+	height: auto;
+}
+.img-circle{
+    border-radius: 20%;
+  }
+
+  #img-profile{
+    width: 250px;
+    height: 250px;
+    border: 10px solid #7280b4;
+  }
+
+
+header {
+    background: url("image/blue-silk.jpg");
+	width: 100%;
+	padding: 40px 0;
+	color: #3b2d2d;
+    text-align: center;
+    
+}
+
+
+
+.modal-footer {
+    background: url("image/blue-silk.jpg");
+    color: #ffffff;
+    width: 100%;
+    padding: 40px 0;
+    text-align: center;
+}
+
+   
+nav a {
+	overflow: hidden;
+	text-decoration: none;
+	color: inherit;
+	padding: 10px;
+	color: #3b2d2d
+}
+
+
+
+
+
+nav ul {
+
+	
+	color: #3b2d2d;
+	padding: 0.80px 0.80px 0.80px 0.80px;
+	text-align: center;
+	margin: 1px 1px 1px 1px;
+
+   
+}
+
+nav ul li {
+	
+	display: inline-block;
+    padding: 20px;
+    border: 5px solid rgb(5, 18, 61);
+}
+
+ul li:hover,
+.dropdown-click:hover {
+	background: url("image/silk-light.jpg");
+
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	min-width: auto;
+	background: url("image/silk-light.jpg");
+	margin: auto;
+	padding: auto;
+	
+	
+}
+
+section {
+	line-height: 1.5em;
+	font-size: 0.9em;
+	padding: 20px;
+    width: 80%;
+	margin: auto;
+    background: url("image/silk-light.jpg");
+	text-align: center;
+	
+}
+.dropdown-content :hover {
+	background: rgb(192, 192, 192);
+}
+.dropdown:hover .dropdown-content {
+	display: grid;
+}
+
+
+img {
+	width: 80%;
+	height: 60%;
+}
+* {
+	box-sizing: border-box
+}
+body {
+	font-family: Verdana, sans-serif;
+}
+#map {
+	height: 400px;
+	width: 60%;
+	
+}
+
+
+
+
+

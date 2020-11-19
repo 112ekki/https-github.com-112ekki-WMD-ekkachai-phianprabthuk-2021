@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Eindopdracht Web & Mobile Development</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <link rel="stylesheet" href="gallery.css">
+    
+    </head>
+
+<body>
+
+	<header>
+        <img src="image/mali.jpg" alt="Ekkachai" id="img-profile" class="img-circle">
+	</header>
+
+
+	<nav>
+		<ul>
+			<h1><strong>MALIRA THAI</strong></h1>
+		</ul>
+	</nav>
+	<nav>
+		<ul>
+			<li><a href="About.html">About</a></li>
+
+
+
+			<li class="dropdown"><a href="# ">Menu<span class="fa fa-angle-down"></span></a>
+				<ul class="dropdown-content ">
+					<li><a href="menu.html" class="pure-menu-link">MENU Gerechten</a></li>
+					<li><a href="Gallery.html" class="pure-menu-link">Gallery</a></li>
+				</ul>
+			</li>
+			<li><a href="Contact.html">Contact</a></li>
+			<li><a href="Index.html">Home</a></li>
+			<li><a href="location.html">Location Map</a></li>
+
+
+		</ul>
+
+	</nav>
+    <section>
+
+	<h1><strong>Foto's Slides Gallery.</strong></h1>
+	<h2><strong>Bekijk hieronder ons bijzondere aanbod.</strong></h2>
+
+	<div class="slideshow-container">
+
+		<div class="mySlides fade">
+			<div class="numbertext">1 / 9</div>
+			<img src="image/Food1.jpg" style="width:100%">
+			<div class="text">Koong Tod</div>
+		</div>
+
+		<div class="mySlides fade">
+			<div class="numbertext">2 / 9</div>
+			<img src="image/Food3.jpg" style="width:100%">
+			<div class="text">Pla Pad Ging</div>
+		</div>
+
+		<div class="mySlides fade">
+			<div class="numbertext">3 / 9</div>
+			<img src="image/Food4.jpg" style="width:100%">
+			<div class="text">Koong Pad Kra-tium Prik Thai</div>
+		</div>
+		<div class="mySlides fade">
+			<div class="numbertext">4 / 9</div>
+			<img src="image/Food8.jpg" style="width:100%">
+			<div class="text">Pad Thai Koong</div>
+		</div>
+		<div class="mySlides fade">
+			<div class="numbertext">5 / 9</div>
+			<img src="image/Food15.jpg" style="width:100%">
+			<div class="text">Pla Pad Prik</div>
+		</div>
+		<div class="mySlides fade">
+			<div class="numbertext">6 / 9</div>
+			<img src="image/Food16.jpg" style="width:100%">
+			<div class="text">Gai Pad Medmamuang</div>
+		</div>
+		<div class="mySlides fade">
+			<div class="numbertext">7 / 9</div>
+			<img src="image/Food24.jpg" style="width:100%">
+			<div class="text">Tom Yam Koong</div>
+		</div>
+		<div class="mySlides fade">
+			<div class="numbertext">8 / 9</div>
+			<img src="image/Food22.jpg" style="width:100%">
+			<div class="text">Yum Woonsen</div>
+		</div>
+		<div class="mySlides fade">
+			<div class="numbertext">9 / 9</div>
+			<img src="image/Food12.jpg" style="width:100%">
+			<div class="text">Pla sam Rod</div>
+		</div>
+
+
+	</div>
+	<br>
+
+	<div style="text-align:center">
+		<span class="dot"></span>
+		<span class="dot"></span>
+		<span class="dot"></span>
+		<span class="dot"></span>
+		<span class="dot"></span>
+		<span class="dot"></span>
+		<span class="dot"></span>
+		<span class="dot"></span>
+		<span class="dot"></span>
+	</div>
+
+	<script>
+		var slideIndex = 0;
+		showSlides();
+
+		function showSlides() {
+			var i;
+			var slides = document.getElementsByClassName("mySlides");
+			var dots = document.getElementsByClassName("dot");
+			for (i = 0; i < slides.length; i++) {
+				slides[i].style.display = "none";
+			}
+			slideIndex++;
+			if (slideIndex > slides.length) {
+				slideIndex = 1
+
+			}
+			for (i = 0; i < dots.length; i++) {
+				dots[i].className = dots[i].className.replace(" active", "");
+			}
+			slides[slideIndex - 1].style.display = "block";
+			dots[slideIndex - 1].className += " active";
+			setTimeout(showSlides, 4000); 
+		}
+
+    </script>
+
+		<embed src="R.mp3" autostart="true" loop="true" height:"0" width="0">
+
+		
+	</section>
+
+	<div class="modal-footer">
+		<h2><strong>Ekkachai Phianprabthuk</strong></h2>
+		
+	</div>
+</body>
+
+</html>
