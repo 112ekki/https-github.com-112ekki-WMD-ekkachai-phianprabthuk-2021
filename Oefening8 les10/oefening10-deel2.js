@@ -1,7 +1,3 @@
-
-
-
-
 const output = document.getElementById('output');
   
     document.getElementById('knop')
