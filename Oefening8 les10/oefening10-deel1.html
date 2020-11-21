@@ -14,26 +14,39 @@
 		<h1>Deel1:ophalen gegevens</h1>
 		<h2>Bekijk de output in de console</h2>
 		
+		<button id="button">Click here!</button>
+
+
+
 		
 		<script>
 				
 			
-			const 	api_url = ('https://matthiasdruwe.github.io/Web-MobileCursus/course/12.-JavaScript-04/examples/example12-01.json')
 			
-			async function haalDataOp() {
-				const response = await fetch(api_url);
-				const data = await response.json();
-				console.log(data);
-				
-             
-		
+		document.getElementById('button')
+      .addEventListener('click', (e) => {
+        haalDataOp();
+      },
+      true);
+
+  function haalDataOp() {
+    fetch('https://matthiasdruwe.github.io/Web-MobileCursus/course/12.-JavaScript-04/examples/example12-01.json')
+        .then((response) => {
+          console.log(response.status);
+      
+          return response.json();
+        })
+        .then((data) => {
+          console.log(data);
+        })
+        .catch((err) => {
+          console.log(err);
+        });
+  };
+
+
 			
-		 }
-	   haalDataOp();
-				
-		</script>
-			
-			
+	</script>		
 		
 	
 			
