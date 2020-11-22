@@ -19,6 +19,7 @@ body {
 	font-family: Verdana, sans-serif;
 	font-size: 15px;
 	line-height: 1.5;
+	margin: 0;
 }
 
 h1,
@@ -54,8 +55,9 @@ header {
 	width: 100%;
 	padding: 40px 0;
 	color: #3b2d2d;
-    text-align: center;
-    
+	text-align: center;
+    padding: 1rem;
+
 }
 
 
@@ -148,6 +150,75 @@ body {
 	height: 400px;
 	width: 60%;
 	
+}
+
+.search {
+    background-color: transparent;
+    border: 2px solid #22254b;
+    border-radius: 50px;
+    color: #fff;
+    font-family: inherit;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+}
+
+.search::placeholder {
+    color: #242b92;
+}
+
+.search:focus {
+    background-color: #27679b;
+    outline: none;
+}
+
+main {
+    display: flex;
+	flex-wrap: wrap;
+}
+
+.movie {
+    background-color: #373b69;
+    border-radius: 3px;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    position: relative;
+    margin: 1rem;
+    width: 200px;
+}
+
+.movie img {
+    width: 100%;
+}
+
+.movie-info {
+    color: rgb(219, 215, 215);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 1rem 1rem;
+    letter-spacing: 0.5px;
+}
+
+.movie-info h3 {
+    margin: 0;
+}
+
+.movie-info span {
+    background-color: #272a53;
+    border-radius: 3px;
+    font-weight: bold;
+    padding: 0.25rem 0.5rem;
+}
+.movie-info span.green {
+    color: rgb(39, 189, 39);
+}
+
+.movie-info span.orange {
+    color: orange;
+}
+
+.movie-info span.red {
+    color: rgb(189, 42, 42);
 }
 
 
